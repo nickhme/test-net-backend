@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     async function getTeas() {
-      const resp = await axios.get(`${baseUrl}/user`)
+      const resp = await axios.get(`${baseUrl}/teas`)
       console.log(resp)
     }
 
